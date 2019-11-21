@@ -1,0 +1,40 @@
+package xuanwei.online.cloud_invoker.util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.netflix.loadbalancer.ILoadBalancer;
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.Server;
+
+import io.reactivex.netty.protocol.http.sse.ServerSentEvent;
+
+public class MyRule implements IRule {
+	
+	private ILoadBalancer lb;
+
+	@Override
+	public Server choose(Object key) {
+		// TODO Auto-generated method stub
+		List<Server> servers = new ArrayList<Server>();
+		System.out.println("自定义服务器规则类，输出服务器信息");
+		for(Server s : servers) {
+			System.out.println("   "+s.getHostPort());
+		}
+		return servers.get(0);
+	}
+
+	@Override
+	public void setLoadBalancer(ILoadBalancer lb) {
+		// TODO Auto-generated method stub
+		this.lb = lb;
+
+	}
+
+	@Override
+	public ILoadBalancer getLoadBalancer() {
+		// TODO Auto-generated method stub
+		return this.lb;
+	}
+
+}

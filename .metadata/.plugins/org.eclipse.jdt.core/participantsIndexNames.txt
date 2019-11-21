@@ -1,0 +1,5 @@
+INDEX VERSION 1.130
+/home/luxuanwei/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2420366799.index
+/servletDemo/src
+/home/luxuanwei/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/678065468.index
+/z_s/src

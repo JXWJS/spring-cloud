@@ -1,0 +1,14 @@
+package xuanwei.online.first_cloud_provider.healthController;
+
+import org.springframework.boot.actuate.health.Health;
+import org.springframework.boot.actuate.health.HealthIndicator;
+
+public class MyHealthIndicator implements HealthIndicator {
+
+	@Override
+	public Health health() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

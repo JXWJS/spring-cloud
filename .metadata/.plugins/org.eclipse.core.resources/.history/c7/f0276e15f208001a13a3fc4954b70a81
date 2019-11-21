@@ -1,0 +1,31 @@
+package xuanwei.online.demo.controller;
+
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import xuanwei.online.demo.entity.Persion;
+
+@RestController
+public class DemoController {
+	
+	@RequestMapping({"/","/hello"})
+	public String hello() {
+		return "Hello World!";
+	}
+	
+	@RequestMapping(value = "/persion/{persionId}", method = RequestMethod.GET,
+					produces = MediaType.APPLICATION_JSON_VALUE)
+	public Persion findPersion(@PathVariable("persionId") Integer persionId ) {
+		Persion persion = new Persion();
+		persion.setId(persionId);
+		persion.setName("luxuanwei");
+		persion.setAge(21);
+		return persion;
+		
+	}
+}

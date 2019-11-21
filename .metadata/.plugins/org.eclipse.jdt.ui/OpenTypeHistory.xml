@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=first-cloud-provider/\/home\/luxuanwei\/local\/repo\/org\/springframework\/boot\/spring-boot-actuator\/1.5.3.RELEASE\/spring-boot-actuator-1.5.3.RELEASE.jar&lt;org.springframework.boot.actuate.health(HealthIndicator.class[HealthIndicator" modifiers="1537" timestamp="1573967349000"/>
+<typeInfo handle="=first-cloud-provider/\/home\/luxuanwei\/local\/repo\/com\/netflix\/eureka\/eureka-client\/1.6.2\/eureka-client-1.6.2.jar&lt;com.netflix.appinfo(HealthCheckCallback.class[HealthCheckCallback" modifiers="1050113" timestamp="1573967352000"/>
+<typeInfo handle="=first-cloud-provider/\/home\/luxuanwei\/local\/repo\/com\/netflix\/eureka\/eureka-client\/1.6.2\/eureka-client-1.6.2.jar&lt;com.netflix.appinfo(HealthCheckHandler.class[HealthCheckHandler" modifiers="1537" timestamp="1573967352000"/>
+<typeInfo handle="=cloud-invoker/\/home\/luxuanwei\/local\/repo\/com\/netflix\/ribbon\/ribbon-loadbalancer\/2.2.2\/ribbon-loadbalancer-2.2.2.jar&lt;com.netflix.loadbalancer(IRule.class[IRule" modifiers="1537" timestamp="1573967375000"/>
+<typeInfo handle="=cloud-invoker/\/home\/luxuanwei\/local\/repo\/com\/netflix\/ribbon\/ribbon-loadbalancer\/2.2.2\/ribbon-loadbalancer-2.2.2.jar&lt;com.netflix.loadbalancer(IPing.class[IPing" modifiers="1537" timestamp="1573967375000"/>
+</typeInfoHistroy>

@@ -1,0 +1,14 @@
+package xuanwei.online.first_cloud_provider.healthController;
+
+import com.netflix.appinfo.HealthCheckHandler;
+import com.netflix.appinfo.InstanceInfo.InstanceStatus;
+
+public class MyHealthCheckHandler implements HealthCheckHandler {
+
+	@Override
+	public InstanceStatus getStatus(InstanceStatus arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

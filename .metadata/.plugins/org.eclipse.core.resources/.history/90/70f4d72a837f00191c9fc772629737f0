@@ -1,0 +1,48 @@
+package servletDemo;
+
+import java.io.*;
+import java.net.URLEncoder;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+public class HelloWorld extends HttpServlet {
+	
+	
+	public void doGet(HttpServletRequest request,HttpServletResponse response)throws ServletException,IOException{
+		Cookie name=new Cookie("name", URLEncoder.encode(request.getParameter("name")));
+		Cookie url=new Cookie("url", request.getParameter("url"));
+		
+		name.setMaxAge(100);
+		url.setMaxAge(100);
+		
+		response.addCookie(name);
+		response.addCookie(url);
+		
+		response.setContentType("text/html");
+		
+		PrintWriter out = response.getWriter();
+        String title = "设置 Cookie 实例";
+        String docType = "<!DOCTYPE html>\n";
+        out.println(docType +
+                "<html>\n" +
+                "<head><title>" + title + "</title></head>\n" +
+                "<body bgcolor=\"#f0f0f0\">\n" +
+                "<h1 align=\"center\">" + title + "</h1>\n" +
+                "<ul>\n" +
+                "  <li><b>站点名：</b>："
+                + request.getParameter("name") + "\n</li>" +
+                "  <li><b>站点 URL：</b>："
+                + request.getParameter("url") + "\n</li>" +
+                "</ul>\n" +
+                "</body></html>");
+        
+		
+		
+	}
+	
+	public void destory() {
+		
+	}
+
+}

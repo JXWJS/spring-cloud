@@ -1,0 +1,5 @@
+package xuanwei.online.first_cloud_provider.entity;
+
+public class Person {
+
+}

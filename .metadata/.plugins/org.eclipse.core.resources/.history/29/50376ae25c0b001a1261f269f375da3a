@@ -1,0 +1,68 @@
+package xuanwei.online.first_ribbon_client;
+
+
+import java.sql.Array;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.netflix.client.ClientFactory;
+import com.netflix.client.http.HttpRequest;
+import com.netflix.client.http.HttpResponse;
+import com.netflix.config.ConfigurationManager;
+import com.netflix.loadbalancer.BaseLoadBalancer;
+import com.netflix.loadbalancer.Server;
+import com.netflix.niws.client.http.RestClient;
+
+import xuanwei.online.first_ribbon_client.util.MyRule;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ) throws Exception
+    {
+    /*    ConfigurationManager.getConfigInstance().setProperty(
+        		"my-client.ribbon.listOfServers",
+        		"localhost:8060,localhost:8061");
+        RestClient client = (RestClient) ClientFactory.getNamedClient("my-client");
+        HttpRequest request = HttpRequest.newBuilder().uri("/person/1").build();
+        for(int i = 0; i< 6; i++) {
+        	HttpResponse response = client.executeWithLoadBalancer(request);
+        	String result = response.getEntity(String.class);
+        	System.out.println(result);
+        	
+        } */
+    	
+    /*	BaseLoadBalancer lb = new BaseLoadBalancer();
+    	lb.setRule(new MyRule(lb));
+    	List<Server> servers = new ArrayList<Server>();
+    	servers.add(new Server("localhost",8060));
+    	servers.add(new Server("localhost",8061));
+    	lb.addServers(servers);
+    	for(int i = 0; i<6; i++) {
+    		Server s = lb.chooseServer(null);
+    		System.out.println(s);
+    		
+    	} */
+    	
+    	 ConfigurationManager.getConfigInstance().setProperty(
+         		"my-client.ribbon.listOfServers",
+         		"localhost:8060,localhost:8061");
+    	 ConfigurationManager.getConfigInstance().setProperty(
+    			 "my-client.ribbon.NFLoadBalancerRuleClassName",
+    			 MyRule.class.getName());
+         RestClient client = (RestClient) ClientFactory.getNamedClient("my-client");
+         HttpRequest request = HttpRequest.newBuilder().uri("/person/1").build();
+         for(int i = 0; i< 6; i++) {
+         	HttpResponse response = client.executeWithLoadBalancer(request);
+         	String result = response.getEntity(String.class);
+         	System.out.println(result);
+    	
+    	
+    }
+}

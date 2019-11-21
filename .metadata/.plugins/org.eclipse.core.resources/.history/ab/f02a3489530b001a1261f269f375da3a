@@ -1,0 +1,13 @@
+package xuanwei.online.first_ribbon_server.Controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyController {
+	
+	@RequestMapping(value = "/person/{personId}" , method = RequestMethod.GET,
+					produces = MediaType.APPLICATION_JSON_VALUE)
+	public Person
+	
+}

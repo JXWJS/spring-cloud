@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Person.java&apos; to &apos;first-ribbon-server/src/main/java/xuanwei.online.first_ribbon_server.entity&apos;&#x0A;- Original project: &apos;first-ribbon-server&apos;&#x0A;- Destination element: &apos;first-ribbon-server/src/main/java/xuanwei.online.first_ribbon_server.entity&apos;&#x0A;- Original element: &apos;xuanwei.online.first_ribbon_server.Controller.Person.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;xuanwei.online.first_ribbon_server.entity" element1="/src\/main\/java&lt;xuanwei.online.first_ribbon_server.Controller{Person.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1574225994695" units="1" version="1.0"/>
+</session>

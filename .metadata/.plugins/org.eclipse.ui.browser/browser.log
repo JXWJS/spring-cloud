@@ -1,0 +1,13 @@
+
+5月 02, 2019 21:41:12.89 NEW SESSION
+5月 02, 2019 21:41:12.89 
+5月 02, 2019 21:41:12.89 (/usr/lib/firefox/firefox:4388): dconf-WARNING **: 21:41:12.891: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+5月 02, 2019 21:41:27.01 [Parent 4326, Gecko_IOThread] WARNING: pipe error (48): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+5月 02, 2019 21:43:03.33 [Parent 4703, Gecko_IOThread] WARNING: pipe error (48): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+5月 02, 2019 21:43:03.33 [Parent 4703, Gecko_IOThread] WARNING: pipe error (108): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+5月 02, 2019 21:44:20.19 [Parent 5055, Gecko_IOThread] WARNING: pipe error (101): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+5月 02, 2019 21:44:20.19 [Parent 5055, Gecko_IOThread] WARNING: pipe error (48): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+
+5月 03, 2019 14:19:45.07 NEW SESSION
+5月 03, 2019 14:19:45.07 [Parent 21296, Gecko_IOThread] WARNING: pipe error (47): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+5月 03, 2019 14:19:45.07 [Parent 21296, Gecko_IOThread] WARNING: pipe error (93): 连接被对方重设: file /build/firefox-6m4fHv/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357

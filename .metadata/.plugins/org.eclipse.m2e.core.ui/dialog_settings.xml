@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.LocalArchetypeCatalogDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="1163" key="x"/>
+		<item value="142" key="y"/>
+		<item value="595" key="height"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="eureka"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/luxuanwei/eclipse-workspace1/cloud-invoker"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/demo"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/cloud-server"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/first-ribbon-client"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/first-ribbon-server"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/first-ek-service-invoker"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/first-cloud-invoker/src/main/resources/application.yml"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/first-cloud-provider"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/first-cloud-server"/>
+			<item value="/home/luxuanwei/eclipse-workspace1/first-ek-service-provider"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="xuanwei.online.cloud_rest_client"/>
+			<item value="xuanwei.online"/>
+			<item value="xuanwei.online.cloud_invoker"/>
+			<item value="xuanwei.online.cloud_provider"/>
+			<item value="xuanwei.online.cloud_server"/>
+			<item value="xuanwei.online.first_ribbon_client"/>
+			<item value="xuanwei.online.first_ribbon_server"/>
+			<item value="xuanwei.online.fir"/>
+			<item value="xuanwei.online.first_cloud_rest_client"/>
+			<item value="xuanwei.online.first_cloud_invoker"/>
+			<item value="xuanwei.online.first_cloud_provider"/>
+			<item value="xuanwei.online.first_cloud_server"/>
+			<item value="org.eureka"/>
+		</list>
+		<list key="groupId">
+			<item value="xuanwei.online"/>
+		</list>
+		<list key="artifactId">
+			<item value="cloud-rest-client"/>
+			<item value="cloud-invoker"/>
+			<item value="cloud-provider"/>
+			<item value="cloud-server"/>
+			<item value="first-ribbon-client"/>
+			<item value="first-ribbon-server"/>
+			<item value="fir"/>
+			<item value="first-cloud-rest-client"/>
+			<item value="first-cloud-invoker"/>
+			<item value="first-cloud-provider"/>
+			<item value="first-cloud-server"/>
+			<item value="eureka"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>
