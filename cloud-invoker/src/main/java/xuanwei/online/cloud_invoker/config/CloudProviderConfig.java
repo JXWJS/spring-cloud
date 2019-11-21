@@ -1,0 +1,11 @@
+package xuanwei.online.cloud_invoker.config;
+
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import xuanwei.online.cloud_invoker.config.MyConfig;
+
+//对服务提供者cloud-provider使用自定义规则类Myrule和MyPing
+
+//@RibbonClient(name="cloud-provider", configuration=MyConfig.class)
+public class CloudProviderConfig {
+	
+}

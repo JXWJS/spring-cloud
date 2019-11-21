@@ -1,0 +1,42 @@
+package xuanwei.online.first_ribbon_client.util;
+
+import java.util.List;
+
+import com.netflix.loadbalancer.BaseLoadBalancer;
+import com.netflix.loadbalancer.ILoadBalancer;
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.Server;
+
+public class MyRule implements IRule{
+	ILoadBalancer lb;
+	
+	public MyRule() {
+		
+	}
+	
+	public MyRule(ILoadBalancer lb) {
+		// TODO Auto-generated constructor stub
+		this.lb = lb;
+	}
+
+	@Override
+	public Server choose(Object key) {
+		// TODO Auto-generated method stub
+		List<Server> servers = lb.getAllServers();
+		return servers.get(0);
+	}
+
+	@Override
+	public void setLoadBalancer(ILoadBalancer lb) {
+		// TODO Auto-generated method stub
+		this.lb = lb;
+	}
+
+	@Override
+	public ILoadBalancer getLoadBalancer() {
+		// TODO Auto-generated method stub
+		return this.lb;
+	}
+	
+	
+}
